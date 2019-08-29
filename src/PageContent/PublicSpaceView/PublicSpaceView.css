@@ -1,0 +1,17 @@
+.PublicSpaceView {
+  background-color: #eee;
+  margin-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+.PublicSpaceView-image-container {
+  width: 300px;
+  height: 216;
+  overflow: hidden;
+}
+
+.PublicSpaceView-image-container--img {
+  height: auto;
+}
+

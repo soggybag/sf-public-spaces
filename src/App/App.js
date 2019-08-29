@@ -1,7 +1,7 @@
 import React from 'react';
-import PageHeader from './PageHeader'
-import PageContent from './PageContent'
-import PageFooter from './PageFooter'
+import PageHeader from '../PageHeader/PageHeader'
+import PageContent from '../PageContent/PageContent'
+import PageFooter from '../PageFooter/PageFooter'
 
 import './App.css';
 
