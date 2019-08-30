@@ -2,6 +2,11 @@
 
 A website that shows off San Francisco's public spaces. 
 
+## Existing Sites and Resources
+
+- https://www.spur.org/sites/default/files/migrated/anchors/popos-guide.pdf
+- https://sfpopos.com
+
 ## TODOS
 
 This is in progress, there is still a lot to be done. 
