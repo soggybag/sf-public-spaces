@@ -14,10 +14,11 @@ const data = [
     address: '600 Montgomery St San Francisco, CA', 
     geo: {lat: 0, lon: 0}, 
     images: ['transamerica-redwood-park.jpg'], 
-    features: { 
-      outdoors: true,
-      website: 'https://pyramidcenter.com/point-of-interest/redwood-park/'
-    } 
+    website: 'https://pyramidcenter.com/point-of-interest/redwood-park/',
+    features: [ 
+      'outdoors',
+      'coffee'
+    ] 
   },
   {
     title: 'Empire Park', 
@@ -25,10 +26,11 @@ const data = [
     address: '642 Commercial St San Francisco, CA Visit Website', 
     geo: {lat: 0, lon: 0}, 
     images: ['empire-park.jpg'], 
-    features: { 
-      outdoors: true, 
-      website:'https://www.artandarchitecture-sf.com/empire-park.html' 
-    } 
+    website:'https://www.artandarchitecture-sf.com/empire-park.html',
+    features: [
+      'outdoors', 
+      'art', 
+    ]
   },
   {
     title: '50 California Street', 
@@ -36,9 +38,10 @@ const data = [
     address: '50 California St San Francisco, CA 94111', 
     geo: {lat: 0, lon: 0}, 
     images: ['50-california-st.png'], 
-    features: { 
-      outdoors: true
-    } 
+    features: [
+      'outdoors',
+      'toilet'
+    ]
   },
   {
     title: 'Embarcadero Center Walkways', 
@@ -46,7 +49,11 @@ const data = [
     address: '275 Battery St San Francisco, CA 94111', 
     geo: {lat: 0, lon: 0}, 
     images: ['transamerica-redwood-park.jpg'], 
-    features: { outdoors: true } 
+    features: [ 
+      'outdoors',
+      'toilet', 
+      'coffee'
+    ]
   },
   {
     title: '343 Sansome Roof Garden', 
@@ -54,11 +61,11 @@ const data = [
     address: '343 Sansome St San Francisco, CA', 
     geo: {lat: 0, lon: 0}, 
     images: ['343-sansome-roof-garden.jpg'], 
-    features: { 
-      outdoors: true, 
-      opens: '10am', 
-      closes: '5pm'  
-    } 
+    opens: '10am', 
+    closes: '5pm',
+    features: [
+      'outdoors', 
+    ]
   },
   {
     title: 'Garden Terrace at 150 California', 
@@ -66,9 +73,11 @@ const data = [
     address: '150 California St San Francisco, CA', 
     geo: {lat: 0, lon: 0}, 
     images: ['garden-terrace-at-150-california.jpg'], 
-    features: { 
-      outdoors: true 
-    } 
+    features: [
+      'outdoors',
+      'art', 
+      'coffee'
+    ]
   },
   {
     title: '100 Pine', 
@@ -76,9 +85,11 @@ const data = [
     address: '101 California St San Francisco, CA', 
     geo: {lat: 0, lon: 0}, 
     images: ['101-california.jpg'], 
-    features: { 
-      outdoors: true 
-    } 
+    features: [
+      'outdoors', 
+      'art', 
+      'coffee'
+    ]
   },
   {
     title: '101 California', 
@@ -86,9 +97,9 @@ const data = [
     address: '100 Pine St San Francisco, CA', 
     geo: {lat: 0, lon: 0}, 
     images: ['100-pine.jpg'], 
-    features: { 
-      outdoors: true 
-    } 
+    features: [ 
+      'outdoors', 
+    ]
   },
   {
     title: '525 Market Street Plaza', 
@@ -96,9 +107,10 @@ const data = [
     address: '525 Market St San Francisco, CA', 
     geo: {lat: 0, lon: 0}, 
     images: ['525-market-street-plaza.jpg'], 
-    features: { 
-      outdoors: true 
-    } 
+    features: [ 
+      'outdoors',
+      'coffee'
+    ]
   },
   {
     title: 'Citigroup Center', 
@@ -106,9 +118,12 @@ const data = [
     address: '1 Sansome St San Francisco, CA', 
     geo: {lat: 0, lon: 0}, 
     images: ['citigroup-center.jpg'], 
-    features: { 
-      outdoors: true 
-    } 
+    features: [
+      'outdoors', 
+      'power',
+      'toilet', 
+      'coffee'
+    ]
   },
 ]
 

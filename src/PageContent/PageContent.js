@@ -4,16 +4,19 @@ import data from '../project-data'
 import './PageContent.css'
 
 function PageContent() {
-  const publicSpaces = data.map(({title, desc, images}, i) => {
+  const publicSpaces = data.map(({title, desc, images, features}, i) => {
     return (
       <PublicSpaceView 
+        key={`${title}-${i}`}
+        index={i}
         title={title}
         desc={desc}
         image={`/images/${images[0]}`}
+        features={features}
       />
     )
   })
-
+  
   return (
     <div className="PageContent">
       {publicSpaces}
