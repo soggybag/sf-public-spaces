@@ -1,7 +1,11 @@
 .PageContent {
   width: 960px;
   margin: auto;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2em;
+  grid-gap: 2em; */
+  column-count: 3;
+  column-width: 1fr;
+  column-gap: 2em;
+  -webkit-column-break-inside: avoid;
 }

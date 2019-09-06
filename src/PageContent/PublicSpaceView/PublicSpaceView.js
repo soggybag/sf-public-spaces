@@ -22,31 +22,32 @@ function getFeatureIcons(features) {
 function PublicSpaceView(props) {
   const { image, title, features } = props
   return (
-    <Link 
-      key={`${title}`}
-      to={{
-        pathname:"/details",
-        state: props // Pass props through Link
-      }}
-    >
-      <div className="PublicSpaceView">
-        <div className="PublicSpaceView-image-container">
-          <img
-            className="PublicSpaceView-image-container--img"
-            alt={`${title}`}
-            src={`${process.env.PUBLIC_URL}${image}`} 
-            width="300" 
-            height="200" />
-        </div>
-        <h3>{title}</h3>
-        <p>
-          {/* <a href={link}>Link to project</a> */}
-        </p>
-        <p>
-          {getFeatureIcons(features)}
-        </p>
+    <div 
+      key={`${title}`} 
+      className="PublicSpaceView">
+      <div className="PublicSpaceView-image-container">
+        <Link 
+          to={{
+            pathname:"/details",
+            state: props // Pass props through Link
+          }}
+        >
+        <img
+          className="PublicSpaceView-image-container--img"
+          alt={`${title}`}
+          src={`${process.env.PUBLIC_URL}${image}`} 
+          width="300" 
+          height="200" />
+        </Link>
       </div>
-    </Link>
+      <h3>{title}</h3>
+      <p>
+        {/* <a href={link}>Link to project</a> */}
+      </p>
+      <p>
+        {getFeatureIcons(features)}
+      </p>
+    </div>
   ) 
 }
 

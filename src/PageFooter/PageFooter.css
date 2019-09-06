@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  position: sticky;
   bottom: 0;
   padding: 2em;
   background-color: rgb(17, 33, 48);

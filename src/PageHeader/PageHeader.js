@@ -8,10 +8,10 @@ function PageHeader() {
       <header>
         <h1 className="page-title">SF Public Spaces</h1>
         <div>
-          <Link to="/">Home</Link>
-          <Link to="/a">AAA</Link>
-          <Link to="/b">BBB</Link>
-          <Link to="/c">CCC</Link>
+          <Link className="PageHeader-link" to="/">Home</Link>
+          <Link className="PageHeader-link" to="/a">AAA</Link>
+          <Link className="PageHeader-link" to="/b">BBB</Link>
+          <Link className="PageHeader-link" to="/c">CCC</Link>
         </div>
       </header>
     </div>
