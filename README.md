@@ -2,6 +2,8 @@
 
 A website that shows off San Francisco's public spaces. 
 
+Visit the site [here](https://soggybag.github.io/sf-public-spaces/)
+
 ## Existing Sites and Resources
 
 - https://www.spur.org/sites/default/files/migrated/anchors/popos-guide.pdf
