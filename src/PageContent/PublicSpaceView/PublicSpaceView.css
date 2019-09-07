@@ -16,3 +16,16 @@
   height: auto;
 }
 
+.PublicSpaceView-image-container--title {
+  margin: 1em 0 0 1em;
+  text-align: left;
+}
+
+.PublicSpaceView-image-container--features {
+  margin: 1em 1em 1em 0;
+  text-align: right;
+}
+.PublicSpaceView-image-container--features svg {
+  margin: 0.5em;
+}
+

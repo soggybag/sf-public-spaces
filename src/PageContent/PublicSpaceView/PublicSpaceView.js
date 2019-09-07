@@ -40,11 +40,11 @@ function PublicSpaceView(props) {
           height="200" />
         </Link>
       </div>
-      <h3>{title}</h3>
+      <h3 className="PublicSpaceView-image-container--title">{title}</h3>
       <p>
         {/* <a href={link}>Link to project</a> */}
       </p>
-      <p>
+      <p className="PublicSpaceView-image-container--features">
         {getFeatureIcons(features)}
       </p>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './PageHeader.css'
 
 function PageHeader() {
@@ -8,10 +8,10 @@ function PageHeader() {
       <header>
         <h1 className="page-title">SF Public Spaces</h1>
         <div>
-          <Link className="PageHeader-link" to="/">Home</Link>
-          <Link className="PageHeader-link" to="/a">AAA</Link>
-          <Link className="PageHeader-link" to="/b">BBB</Link>
-          <Link className="PageHeader-link" to="/c">CCC</Link>
+          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/">Home</NavLink>
+          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/a">AAA</NavLink>
+          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/b">BBB</NavLink>
+          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/c">CCC</NavLink>
         </div>
       </header>
     </div>
