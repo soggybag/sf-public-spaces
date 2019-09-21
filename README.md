@@ -13,16 +13,20 @@ Visit the site [here](https://soggybag.github.io/sf-public-spaces/)
 
 This is in progress, there is still a lot to be done. 
 
-- Sticky footer - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
-- Apply Masonary layout with flexbox
-- Add React Router navigation
-  - Home page - shows all spaces
-  - Details page -shows a single space with detail info 
+- ~~Sticky footer - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers~~
+- ~~Apply Masonary layout with flexbox~~
+- ~~Add React Router navigation~~
+  - ~~Home page - shows all spaces~~
+  - ~~Details page -shows a single space with detail info~~
     - map
     - slide show
     - panorama
-  - About or other page? 
-- Host on GitHub Pages. Using gh-pages, this is not working. It's failing at logging in on the command line. 
+  - About or other pages? 
+    - Brain storm other pages to show...
+- ~~Host on GitHub Pages. Using gh-pages, this is not working. It's failing at logging in on the command line.~~
+
+## Notes 
+
 - Follow these instructions to setup GitHub Pages
   - https://reactgo.com/deploy-react-app-github-pages/
   - npm run deploy
