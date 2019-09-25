@@ -9,6 +9,12 @@ Visit the site [here](https://soggybag.github.io/sf-public-spaces/)
 - https://www.spur.org/sites/default/files/migrated/anchors/popos-guide.pdf
 - https://sfpopos.com
 
+## Contributing 
+
+See our [contributing Guide](contributing.md).
+
+Browse the issues to see what needs to be done. 
+
 ## TODOS
 
 This is in progress, there is still a lot to be done. 
