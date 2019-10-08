@@ -16,6 +16,14 @@ function PageContent() {
       />
     )
   })
+
+  // componentDidMount() {
+  //   fetch('').then((res) => {
+  //     return res.json()
+  //   }).then((json) => {
+  //     json.map()
+  //   })
+  // }
   
   return (
     <div className="PageContent">

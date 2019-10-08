@@ -8,10 +8,11 @@ function PageHeader() {
       <header>
         <h1 className="page-title">SF Public Spaces</h1>
         <div>
-          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/">Home</NavLink>
-          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/a">AAA</NavLink>
-          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/b">BBB</NavLink>
-          <NavLink className="PageHeader-link" activeClassName="selected" exact to="/c">CCC</NavLink>
+          <NavLink to="/"  className="PageHeader-link" activeClassName="selected" >Home</NavLink>
+          <NavLink to="/a" className="PageHeader-link" activeClassName="selected" >AAA</NavLink>
+          <NavLink to="/b" className="PageHeader-link" activeClassName="selected" >BBB</NavLink>
+          <NavLink to="/dashboard" className="PageHeader-link" activeClassName="selected" >Dashboard</NavLink>
+          
         </div>
       </header>
     </div>

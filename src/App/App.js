@@ -15,11 +15,16 @@ function App() {
       <div className="App">
         <PageHeader />
         
-        <Route path="/" exact render={() => <PageContent />} />
+        <Route exact path="/" component={PageContent} />
         <Route path="/details" component={PublicSpaceViewDetails} />
-        <Route path="/a" render={() => <Content title="A"/>} />
-        <Route path="/b" render={() => <Content title="B"/>} />
-        <Route path="/c" render={() => <Content title="C"/>} />
+
+        <Route path="/a" render={() => {
+          return <Content title="A"/>
+        }} />
+        <Route path="/b/a" render={() => <Content title="B"/>} />
+        <Route path="/d" render={() => <Content title="DDDDDDDD"/>} />
+
+        <Route path="/dashboard" render={() => <Content title="Dashboard"/>} />
 
         <PageFooter />
       </div>
