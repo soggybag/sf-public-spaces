@@ -19,6 +19,7 @@ Browse the issues to see what needs to be done.
 
 This is in progress, there is still a lot to be done. 
 
+- List of addresses and collect data about spaces.
 - ~~Sticky footer - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers~~
 - ~~Apply Masonary layout with flexbox~~
 - ~~Add React Router navigation~~
@@ -43,4 +44,19 @@ This is in progress, there is still a lot to be done.
       - https://mycyberuniverse.com/how-fix-fatal-authentication-failed-for-https-github-com.html
 - For images and other files in the public folder use: `process.env.PUBLIC_URL`
   - `<img src={`${process.env.PUBLIC_URL}/${image}`} width="300" height="200" />`
-
+- What to show in a "Public Space" listing? 
+  - Address
+  - Image 
+    - Icon
+    - images 
+    - by season
+    - audio clip
+      - hosted on sound cloud
+      - ambient
+    - amenities
+      - coffee
+      - bathroom
+      - art
+      - indoors/outdoors
+      - size
+      - benches/tables/chairs

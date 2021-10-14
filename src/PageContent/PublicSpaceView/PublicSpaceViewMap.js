@@ -28,10 +28,14 @@ const PublicSpaceMapCall = ({ lat, lon, zoom }) => {
   const lng = lon || mock.center.lng;
   const zm = zoom || mock.zoom;
 
+  console.log('--------------------------')
+  console.log(process.env.REACT_APP_KEY)
+
   return (
     <div style={{ height: '100vh', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.REACT_APP_KEY }}
+        // bootstrapURLKeys={{ key: process.env.REACT_APP_KEY }}
+        bootstrapURLKeys={{ key: 'AIzaSyBkSjqD5-V4S-JbWgS67wzzxnJo64HQBfU' }}
         defaultCenter={{ lat: lati, lng: lng }}
         defaultZoom={zm}
       >

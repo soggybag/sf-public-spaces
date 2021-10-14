@@ -19,6 +19,6 @@
   margin: 0 0.25em;
 }
 
-.selected {
+.PageHeader-link__selected {
   color: red;
 }
